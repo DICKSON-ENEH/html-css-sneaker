@@ -1,0 +1,192 @@
+* {
+    margin: 0.5%;
+    padding: 0%;
+}
+
+
+.maincontainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.headwrap{
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+header{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    
+    
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    font-family: cursive;
+}
+.avat{
+    width: 70px;
+}
+.icon{
+    margin-left: 5%;
+}
+.big{
+    width: 400px;
+    border-radius: 30px;
+}
+.bodydiv{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 1000px;
+    
+
+}
+.pic{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.dwn{
+    width: 80px;
+    border-radius: 10px;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: orangered;
+    font-size: medium;
+    font-family: fantasy;
+}
+h2{
+    font-size: 40px;
+    font-family: cursive;
+}
+p{
+    text-align: left;
+    font-size: large;
+    font-family: cursive;
+}
+.text{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 450px; */
+    margin-left: 100px ;
+    margin-bottom: 80px;
+    
+
+}
+.textx{display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 450px; */
+    
+    
+    
+}
+.price{
+    height: 30px;
+}
+.prc{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.prcz{
+    font-family: sans-serif;
+    color: orangered;
+    background-color: rgb(250, 215, 203);
+    border-radius: 3px;
+    font-size: small;
+}
+.base{
+   color: rgb(128, 121, 121); 
+   font-size: small;
+   
+}
+
+button{
+background-color: orangered;
+width: 180px;
+height: 40px;
+border-radius: 5px;
+border: orangered;
+margin: 5px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-right: 55px;
+color: white;
+font-family: cursive;
+font-size: medium;
+    
+}
+h1{
+    font-family: cursive;
+}
+
+
+
+.cart{
+    display: flex;
+    
+    justify-content: flex-start;
+    /* align-items: center; */
+    color: white;
+    font-family: cursive;
+    font-size: large;
+}
+.yh{display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+   
+    justify-content: space-around;
+    
+}
+.firstbutt{
+    background-color: rgb(245, 243, 240);
+    
+}
+.ccc{
+    width: 20px;
+}
+
+}
+/* h5{
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+} */
+
+.cartbutt{
+    display: flex;
+    
+justify-content: space-around;
+}
